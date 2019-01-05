@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Springcloud-Common" />
+        <module name="springcloud-common" />
+        <module name="springcloud-consumer-dashboard-9006" />
+        <module name="springcloud-consumer-feign-9003" />
+        <module name="springcloud-consumer-Hystrix-9004" />
+        <module name="springcloud-consumer-hystrix-9005" />
+        <module name="springcloud-consumer-ribbon-9001" />
+        <module name="springcloud-consumer-ribbon-9002" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-eureka-7002" />
+        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-provide-8001" />
+        <module name="springcloud-provide-8002" />
+        <module name="springcloud-provide-8003" />
+        <module name="springcloud-provide-zuul-8004" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-Hystrix-9005" target="1.8" />
+      <module name="springcloud-provide-hystrix-8004" target="1.8" />
+      <module name="springcloudcommon" target="1.8" />
+      <module name="springcloudfeign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
