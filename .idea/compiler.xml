@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Springcloud-Common" />
         <module name="springcloud-common" />
+        <module name="springcloud-conf-6001" />
+        <module name="springcloud-config-client" />
         <module name="springcloud-consumer-dashboard-9006" />
         <module name="springcloud-consumer-feign-9003" />
         <module name="springcloud-consumer-Hystrix-9004" />

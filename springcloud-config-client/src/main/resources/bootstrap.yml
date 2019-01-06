@@ -1,0 +1,24 @@
+#spring:
+#  application:
+#    name: config-client
+#  profiles:
+#    active: dev
+#  cloud:
+#    config:
+#      uri: 127.0.0.1:6001
+#      label:  master     #主节点
+#      profile: dev
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      name: config-client    #文件名称
+      profile: dev      #激活的模式
+      label: master     #主节点
+      uri: http://127.0.0.1:6001  #ip
+      #每次github上更改以后需要，/refresh才能刷新
+management:
+  security:
+    enabled: false

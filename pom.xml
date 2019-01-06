@@ -23,6 +23,8 @@
         <module>springcloud-consumer-hystrix-9005</module>
         <module>springcloud-consumer-dashboard-9006</module>
         <module>springcloud-provide-zuul-8004</module>
+        <module>springcloud-conf-6001</module>
+        <module>springcloud-config-client</module>
     </modules>
 
     <properties>
